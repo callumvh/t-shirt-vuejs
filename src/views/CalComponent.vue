@@ -12,25 +12,24 @@
     >
       <v-layer ref="layer">
         <v-image
-          :listening="true"
+          :listening="false"
           :preventDefault="true"
           :config="{image: shirt_image,name:'shirt',visible:shirt_image_bool}"
-          :draggable="true"
+          :draggable="false"
         />
         <v-image
-          :listening="true"
+          :listening="false"
           :preventDefault="false"
           :config="{image: back_of_shirt,name:'back_of_shirt', visible:back_of_shirt_bool}"
-          :draggable="true"
+          :draggable="false"
         />
-        <v-image :scale="{x:0.1,y:0.1}" :config="{image:eggs_image,name:'eggs'}" :draggable="true"></v-image>
+        <v-image :scale="{x:0.8,y:0.8}" :config="{image:eggs_image,name:'eggs'}" :draggable="true"></v-image>
         <v-image
           :scale="{x:0.1,y:0.1}"
           :config="{image:coffee_image,name:'coffee',visible:trueOrFalse_coffee }"
           :draggable="true"
-          @click="rectangles[0].visible=true "
         ></v-image>
-        <v-rect v-for="item in rectangles" :key="item.id" :config="item"/>
+        <v-rect :visible="false" v-for="item in rectangles" :key="item.id" :config="item"/>
         <v-transformer
           :anchorSize="20"
           :anchorFill="'white'"
@@ -102,7 +101,7 @@ export default {
           fill: "red",
           name: "rect1",
           draggable: true,
-          visible: true
+          visible: false
         },
         {
           x: 150,
@@ -111,7 +110,7 @@ export default {
           height: 100,
           fill: "green",
           name: "rect2",
-          draggable: true
+          draggable: false
         }
       ],
       selectedShapeName: "",
