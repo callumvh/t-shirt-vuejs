@@ -55,7 +55,7 @@ export default {
     let Eggs = new window.Image();
 
     Eggs.src =
-      "http://pluspng.com/img-png/egg-png-eggs-png-transparent-image-1650.png";
+      "https://www.cronj.com/blog/wp-content/uploads/2015/12/HTTPS-Secure-Padlock.png";
     Eggs.onload = () => {
       // image_eggs.name = "eggs";
 
