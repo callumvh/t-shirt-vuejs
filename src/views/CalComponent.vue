@@ -2,7 +2,7 @@
   <div id="app">
     <!-- <input &#x3C;> -->
     <input @click="trueOrFalse_coffee=false" type="button" value="hide coffee">
-    <input @click="swapShirts()" type="button" value="front to back">
+    <input @click="swapShirts()" type="button" value="back to front">
 
     <v-stage
       ref="stage"

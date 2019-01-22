@@ -17,7 +17,7 @@ importScripts(
   "/precache-manifest.d26d4d3ddc0ecf0c994277058dd45969.js"
 );
 
-workbox.core.setCacheNameDetails({prefix: "front_5"});
+workbox.core.setCacheNameDetails({prefix: "cals_shirt_app"});
 
 /**
  * The workboxSW.precacheAndRoute() method efficiently caches and responds to
