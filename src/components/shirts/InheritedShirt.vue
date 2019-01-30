@@ -4,7 +4,7 @@
     <!-- <input type="button" value="save stage" @click="savetoStage()"> -->
     <!-- <br> -->
     <input type="file" id="file" name="file" value="upload image" @change="onFileSelected">
-    <label for="file">Choose your own image</label>
+    <label for="file">Choose your own image...</label>
 
     <v-stage
       ref="stage"

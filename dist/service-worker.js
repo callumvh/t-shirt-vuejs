@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.3808d0e657bf2b7bcd0a9096690eb1f8.js"
+  "/precache-manifest.f14c332d11fbb3a3f3ca5656d1fce78f.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "cals_shirt_app"});
