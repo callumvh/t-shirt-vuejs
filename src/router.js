@@ -1,7 +1,7 @@
 import Vue from "vue";
 import Router from "vue-router";
 import Home from "./views/Home.vue";
-import CalComponents from "./views/CalComponent";
+import ShirtView from "./views/ShirtView.vue";
 import VueKonva from "vue-konva";
 import vueSlider from "vue-slider-component";
 
@@ -20,9 +20,9 @@ export default new Router({
     },
 
     {
-      path: "/cal",
-      name: "cal",
-      component: CalComponents
+      path: "/shirt-maker",
+      name: "shirtMaker",
+      component: ShirtView
     }
   ]
 });

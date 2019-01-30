@@ -1,23 +1,12 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link>|
-      <router-link to="/about">About</router-link>|
-      <router-link to="/cal">Cal</router-link>
+      <router-link to="/">Welcome</router-link>
+
+      |
+      <router-link to="/shirt-maker">Shirt maker</router-link>
     </div>
-    <!-- <Slideout menu="#menu" panel="#panel" :toggleSelectors="['.toggle-button']" @on-open="open">
-      <nav id="menu">
-        <div>Menu</div>
-      </nav>
-      <main id="panel">
-        <header>
-          <div>
-            <button class="toggle-button">☰</button>
-            Panel
-          </div>
-        </header>
-      </main>
-    </Slideout>-->
+
     <router-view/>
   </div>
 </template>

@@ -3,12 +3,12 @@
   "short_name": "shirt_designer",
   "icons": [
     {
-      "src": "./img/icons/android-chrome-192x192.png",
+      "src": "./img/icons/shirt_logo.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "./img/icons/android-chrome-512x512.png",
+      "src": "./img/icons/shirt_logo.png",
       "sizes": "512x512",
       "type": "image/png"
     }

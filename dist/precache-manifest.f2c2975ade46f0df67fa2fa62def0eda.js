@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "e525c49f027a382ebc19",
-    "url": "/css/app.f0ae9341.css"
+    "revision": "79eb2dad39fa2bbb4c0c",
+    "url": "/css/app.fd51bb97.css"
   },
   {
-    "revision": "e525c49f027a382ebc19",
-    "url": "/js/app.1766b39d.js"
+    "revision": "79eb2dad39fa2bbb4c0c",
+    "url": "/js/app.59f4ef33.js"
   },
   {
     "revision": "6fb11d7fa6a2df52ace0",
@@ -20,12 +20,16 @@ self.__precacheManifest = [
     "url": "/img/new_front.2359e740.png"
   },
   {
-    "revision": "82b9c7a5a3f405032b1db71a25f67021",
-    "url": "/img/logo.82b9c7a5.png"
+    "revision": "55d1ce00c0fa15d89a0d742c3dca3353",
+    "url": "/img/logo.55d1ce00.png"
   },
   {
-    "revision": "45345c021adce63c11573c8b835ae0ec",
+    "revision": "2ed57b43ce841e423c0dddcb9e7d9bcf",
     "url": "/index.html"
+  },
+  {
+    "revision": "7a51f5f86cf02ae50800634d477bceea",
+    "url": "/new.ico"
   },
   {
     "revision": "b6216d61c03e6ce0c9aea6ca7808f7ca",
