@@ -3,7 +3,8 @@
     <!-- <input @click="trueOrFalse_coffee=false" type="button" value="hide coffee"> -->
     <!-- <input type="button" value="save stage" @click="savetoStage()"> -->
     <!-- <br> -->
-    <input style="" type="file" value="upload image" @change="onFileSelected">
+    <input type="file" id="file" name="file" value="upload image" @change="onFileSelected">
+    <label for="file">Choose your own image</label>
 
     <v-stage
       ref="stage"
@@ -401,6 +402,7 @@ export default {
   }
 };
 </script>
+
 
 
 
