@@ -1,5 +1,3 @@
-https://cals-shirt-vue.herokuapp.com/
-
 ## Project setup
 ```
 npm install
